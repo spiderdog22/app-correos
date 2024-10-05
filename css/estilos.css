@@ -1,44 +1,63 @@
 body {
-	background: #f0f3f5;
-	color: #000000;
+	background-image: linear-gradient(to right, #E1E1E1, #E1E1E1);
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
 }
 
-header {
-	background: #9ac;
-	padding: 20px;
+.container{
+	max-width: 600px;
+	padding: 30px;
+	background-image: linear-gradient(to right, #ffffffcb, #ffffffcb);
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-message{
+	font-family: "Roboto Mono", monospace;
+	font-weight: 500;
+	color: #333;
+}
+
+#home-text {
+	color: #666;
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+.form-control {
+	border-radius: 5px;
+	padding: 10px;
 	margin-bottom: 20px;
 }
 
-.contenedor-main {
-	margin-bottom: 20px;
+
+#fname, #email, #message {
+	width: 35rem;
+	padding: 2px;
+	margin-bottom: 30px;
+	text-align: left;
 }
 
-main {
-	background: #fff;
-	color: #424242;
-	padding: 20px 0;
+
+
+#message{
+	height: 20rem;
 }
 
-aside {
-	background: #dee5e8;
-	padding: 60px 0;
-	color: #0d47a1;
+#send-button{
+	width: 35rem;
+	font-weight: 600;
+	font-size: 20px;
+	font-family:  "Roboto Mono", monospace;
+	background-color: #007bff;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
 }
 
-.widgets {
-	background: #f2f2f2;
-	color: #424242;
-	margin-bottom: 20px;
-}
-
-.widgets > div {
-	background: #2196f3;
-	color: #fff;
-	padding: 20px;
-}
-
-footer {
-	padding: 20px 0;
-	background: #1e1e1e;
-	color:#fff;
+#send-button:hover{
+	background-color: #0056b3;
 }
