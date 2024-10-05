@@ -1,1 +1,4 @@
-const form = document.querySelector('form');
+emailjs.init({
+    publicKey: 'T29U9qPCcfa6SMJXA'
+});
+
